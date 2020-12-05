@@ -126,18 +126,12 @@
       "MaskIp/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "FluentValidation.AspNetCore": "9.3.0"
-        },
         "compile": {
           "bin/placeholder/MaskIp.dll": {}
         },
         "runtime": {
           "bin/placeholder/MaskIp.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       }
     }
   },
@@ -314,12 +308,13 @@
     },
     "MaskIp/1.0.0": {
       "type": "project",
-      "path": "../../MaskIp/MaskIp/MaskIp.csproj",
-      "msbuildProject": "../../MaskIp/MaskIp/MaskIp.csproj"
+      "path": "../MaskIp/MaskIp.csproj",
+      "msbuildProject": "../MaskIp/MaskIp.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "FluentValidation.AspNetCore >= 9.3.0",
       "MaskIp >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
@@ -354,8 +349,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\guy\\source\\repos\\MaskIp\\MaskIp\\MaskIp.csproj": {
-              "projectPath": "C:\\Users\\guy\\source\\repos\\MaskIp\\MaskIp\\MaskIp.csproj"
+            "C:\\Users\\guy\\source\\repos\\IpMasking\\MaskIp\\MaskIp.csproj": {
+              "projectPath": "C:\\Users\\guy\\source\\repos\\IpMasking\\MaskIp\\MaskIp.csproj"
             }
           }
         }
@@ -369,6 +364,10 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
+          "FluentValidation.AspNetCore": {
+            "target": "Package",
+            "version": "[9.3.0, )"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[5.6.3, )"

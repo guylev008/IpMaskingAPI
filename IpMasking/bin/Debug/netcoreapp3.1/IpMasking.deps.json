@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v3.1": {
       "IpMasking/1.0.0": {
         "dependencies": {
+          "FluentValidation.AspNetCore": "9.3.0",
           "MaskIp": "1.0.0",
           "Swashbuckle.AspNetCore": "5.6.3",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
@@ -418,9 +419,6 @@
         }
       },
       "MaskIp/1.0.0": {
-        "dependencies": {
-          "FluentValidation.AspNetCore": "9.3.0"
-        },
         "runtime": {
           "MaskIp.dll": {}
         },
