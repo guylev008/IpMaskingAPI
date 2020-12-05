@@ -2,8 +2,6 @@
 using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
-using IpMasking.Validators;
-using IpMasking.Validators.IpValidators;
 using MaskIp;
 using Microsoft.AspNetCore.Http;
 
@@ -25,11 +23,9 @@ namespace IpMasking.Services
         public MemoryStream HandleMasking(IFormFile i_file)
         {
             var fileContent = i_file.ReadAsStringAsync();
-            var ipList = GetIpsFromFileContent(fileContent);
+            var ipList = GetClassCIpsFromFileContent(fileContent);
             foreach (var ip in ipList)
             {
-                if(!IsIpValid(ip))
-                    continue;
                 var maskedIp = _maskIps.Mask(ip);
                 fileContent = fileContent.Replace(ip, maskedIp);
             }
@@ -37,15 +33,9 @@ namespace IpMasking.Services
             return fileContent.ConvertToStream();
         }
 
-        private bool IsIpValid(string ip)
+        private IEnumerable<string> GetClassCIpsFromFileContent(string fileContent)
         {
-            var ipValidator = ValidatorFactory<IpValidator>.GetValidator();
-            return ipValidator.Validate(ip).IsValid;
-        }
-
-        private IEnumerable<string> GetIpsFromFileContent(string fileContent)
-        {
-            return Regex.Matches(fileContent, @"\b\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\b").Select(m => m.Groups[0].Value).Distinct();
+            return Regex.Matches(fileContent, @"(19[2-9]|2[0-2]\d|23[0-3])(\.([1-9]?\d|[12]\d\d)){3}").Select(m => m.Groups[0].Value).Distinct();
         }
     }
 }

@@ -2,9 +2,6 @@ C:\Users\guy\source\repos\IpMasking\IpMasking\bin\Debug\netcoreapp3.1\appsetting
 C:\Users\guy\source\repos\IpMasking\IpMasking\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\guy\source\repos\IpMasking\IpMasking\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\guy\source\repos\IpMasking\IpMasking\bin\Debug\netcoreapp3.1\IpMasking.exe
-C:\Users\guy\source\repos\IpMasking\IpMasking\bin\Debug\netcoreapp3.1\FluentValidation.dll
-C:\Users\guy\source\repos\IpMasking\IpMasking\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
-C:\Users\guy\source\repos\IpMasking\IpMasking\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\guy\source\repos\IpMasking\IpMasking\bin\Debug\netcoreapp3.1\MaskIp.dll
 C:\Users\guy\source\repos\IpMasking\IpMasking\bin\Debug\netcoreapp3.1\MaskIp.pdb
 C:\Users\guy\source\repos\IpMasking\IpMasking\obj\Debug\netcoreapp3.1\IpMasking.csprojAssemblyReference.cache

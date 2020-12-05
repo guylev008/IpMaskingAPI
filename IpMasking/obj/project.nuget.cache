@@ -1,14 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "swhto8s8qODRdXCRjj8pASxbclakI93Tg3sU35i2sp8yPC0EBufC+bMOtq5UkD2Q6TQQhY/nCR+J2oMnP/GskA==",
+  "dgSpecHash": "nXZn+BVnMzGmVCsajm1IpEeeiORM0vSeTUDMHAxKDr9vpSnQe6enjoyaYO4WmKUBT/o0llTCkdU6tmkHhWXPsg==",
   "success": true,
   "projectFilePath": "C:\\Users\\guy\\source\\repos\\IpMasking\\IpMasking\\IpMasking.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\guy\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512",
-    "C:\\Users\\guy\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.3.0\\fluentvalidation.aspnetcore.9.3.0.nupkg.sha512",
-    "C:\\Users\\guy\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.3.0\\fluentvalidation.dependencyinjectionextensions.9.3.0.nupkg.sha512",
     "C:\\Users\\guy\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
-    "C:\\Users\\guy\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
     "C:\\Users\\guy\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\guy\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\guy\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
