@@ -20,9 +20,9 @@ C:\Users\guy\source\repos\IpMasking\IpMasking\bin\Debug\netcoreapp3.1\IpMasking.
 C:\Users\guy\source\repos\IpMasking\IpMasking\bin\Debug\netcoreapp3.1\IpMasking.pdb
 C:\Users\guy\source\repos\IpMasking\IpMasking\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\guy\source\repos\IpMasking\IpMasking\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\guy\source\repos\IpMasking\IpMasking\obj\Debug\netcoreapp3.1\IpMasking.csproj.CoreCompileInputs.cache
-C:\Users\guy\source\repos\IpMasking\IpMasking\obj\Debug\netcoreapp3.1\IpMasking.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\guy\source\repos\IpMasking\IpMasking\obj\Debug\netcoreapp3.1\IpMasking.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\guy\source\repos\IpMasking\IpMasking\obj\Debug\netcoreapp3.1\IpMasking.dll
 C:\Users\guy\source\repos\IpMasking\IpMasking\obj\Debug\netcoreapp3.1\IpMasking.pdb
 C:\Users\guy\source\repos\IpMasking\IpMasking\obj\Debug\netcoreapp3.1\IpMasking.genruntimeconfig.cache
+C:\Users\guy\source\repos\IpMasking\IpMasking\obj\Debug\netcoreapp3.1\IpMasking.csproj.CoreCompileInputs.cache
+C:\Users\guy\source\repos\IpMasking\IpMasking\obj\Debug\netcoreapp3.1\IpMasking.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\guy\source\repos\IpMasking\IpMasking\obj\Debug\netcoreapp3.1\IpMasking.MvcApplicationPartsAssemblyInfo.cache

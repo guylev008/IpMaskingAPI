@@ -21,6 +21,7 @@ namespace IpMasking
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors();
             services.AddControllers();
             services.AddTransient<IMaskIps, MaskIps>();
             services.AddTransient<IMaskIpService, MaskIpService>();
@@ -38,6 +39,10 @@ namespace IpMasking
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseCors(
+                options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()
+            );
+
             app.UseRouting();
 
             app.UseSwagger();
@@ -45,7 +50,6 @@ namespace IpMasking
             {
                 c.SwaggerEndpoint("v1/swagger.json", "IP Masking V1");
             });
-
 
             app.UseEndpoints(endpoints =>
             {

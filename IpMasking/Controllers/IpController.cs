@@ -25,7 +25,7 @@ namespace IpMasking.Controllers
             [MaxFileSize(5 * 1024 * 1024)]
             [Required(ErrorMessage = "Please select a file.")]
             [DataType(DataType.Upload)]
-            IFormFile i_file
+            [FromForm]IFormFile i_file
             )
         {
             try
